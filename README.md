@@ -113,7 +113,7 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 - Revenue by Region (Bar / Map Chart)
 - Sales by Product Category (Donut Chart)
 
-![Sales Overview]([screenshots/page1_overview.png](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/main/Screenshots/Screenshot%202026-06-27%20112327.png?raw=true))
+![Sales Overview](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/0844a4bf2468f9ff51455c65b66038313ee404cf/Screenshots/Screenshot%202026-06-27%20112327.png))
 
 ---
 
