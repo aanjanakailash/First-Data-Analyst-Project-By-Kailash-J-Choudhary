@@ -126,7 +126,7 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 - Customer Count by City (Map / Treemap)
 - Revenue per Customer Segment over Time (Line Chart)
 
-![Customer Analysis](screenshots/page2_customer.png)
+![Customer Analysis](screenshots/page2_customer.png](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/e937299c693d708361eb96b5b867bf62ab063ac6/Screenshots/Screenshot%202026-06-27%20112338.png))
 
 ---
 
@@ -139,7 +139,7 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 - Price vs Sales Volume Scatter Plot
 - Low Performing Products (Filtered Table)
 
-![Product Performance](screenshots/page3_product.png)
+![Product Performance](screenshots/page3_product.png](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/e937299c693d708361eb96b5b867bf62ab063ac6/Screenshots/Screenshot%202026-06-27%20112349.png))
 
 ---
 
