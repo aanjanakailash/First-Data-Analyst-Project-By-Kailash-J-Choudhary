@@ -6,8 +6,11 @@
 
 ## 🗂️ Project Overview
 
-This project demonstrates a complete data analytics workflow using **Python (Pandas)**, **SQL**, and **Power BI**.  
-Raw sales data is cleaned, queried, and visualized across a 3-page interactive dashboard.
+The Sales Data Analyst Project is an end-to-end data analytics project designed to transform raw sales data into meaningful business insights using Python, MySQL, and Power BI.
+
+The project begins with cleaning and preprocessing the dataset using Python (Pandas). The cleaned data is then imported into MySQL, where SQL queries are used for validation and business analysis. Finally, the processed data is connected to Power BI to build interactive dashboards that help visualize sales performance, profitability, regional trends, product category performance, discounts, and customer return patterns.
+
+The dashboards enable users to analyze sales data across different years, regions, states, and product categories through dynamic filters and interactive visualizations. This project demonstrates the complete data analytics workflow, from raw data processing to business intelligence reporting.
 
 ---
 
@@ -28,13 +31,13 @@ sales-analytics-project/
 │       ├── product_clean.csv
 │       └── city_clean.csv
 │
-├── notebooks/
+├── Python/
 │   └── data_cleaning.ipynb     # Pandas data cleaning notebook
 │
 ├── sql/
 │   └── queries.sql             # All SQL queries used for analysis
 │
-├── dashboard/
+├── power BI/
 │   └── sales_dashboard.pbix    # Power BI dashboard file
 │
 ├── screenshots/                # Dashboard screenshots (3 pages)
@@ -52,8 +55,8 @@ sales-analytics-project/
 | File | Description | Key Columns |
 |---|---|---|
 | `mainsales2.csv` | Main sales transactions (fact table) | SaleID, CustomerID, ProductID, CityID, Amount, Date |
-| `customer.csv` | Customer dimension table | CustomerID, Name, Age, Segment |
-| `product.csv` | Product dimension table | ProductID, ProductName, Category, Price |
+| `customers.csv` | Customer dimension table | CustomerID, Name, Age, Segment |
+| `products.csv` | Product dimension table | ProductID, ProductName, Category, Price |
 | `city.csv` | City/location dimension table | CityID, City, State, Region |
 
 ---
@@ -62,7 +65,7 @@ sales-analytics-project/
 
 ### Step 1 — Data Cleaning with Python (Pandas)
 
-**Notebook:** `notebooks/data_cleaning.ipynb`
+**Notebook:** `python /data_cleaning.ipynb`
 
 - Loaded all 4 raw CSV/Excel files into Pandas DataFrames
 - Removed duplicate rows from each table
@@ -108,10 +111,11 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 
 > High-level KPIs and overall performance at a glance.
 
-- Total Revenue, Total Orders, Avg Order Value (KPI cards)
-- Monthly Sales Trend (Line Chart)
-- Revenue by Region (Bar / Map Chart)
+- Total Revenue, Total Orders, total profit ,profit margin  (KPI cards)
+- Revenue by Region (Bar / )
 - Sales by Product Category (Donut Chart)
+- high profit category
+- average dicoutby category
 
 ![Sales Overview](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/0844a4bf2468f9ff51455c65b66038313ee404cf/Screenshots/Screenshot%202026-06-27%20112327.png))
 
@@ -121,10 +125,11 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 
 > Deep dive into customer behavior and segmentation.
 
-- Customer Segment Distribution (Pie Chart)
-- Top 10 Customers by Revenue (Horizontal Bar Chart)
-- Customer Count by City (Map / Treemap)
-- Revenue per Customer Segment over Time (Line Chart)
+- count total order by region(Pi chart)
+- Monthly Sales Trend (Line Chart)
+- count cancel orderd by region (pi chart)
+ 
+
 
 ![Customer Analysis](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/e937299c693d708361eb96b5b867bf62ab063ac6/Screenshots/Screenshot%202026-06-27%20112338.png))
 
@@ -132,12 +137,7 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 
 ### Page 3 — Product Performance
 
-> Product-level insights for inventory and sales strategy.
-
-- Top 10 Products by Revenue (Bar Chart)
-- Product Category Performance (Matrix / Heatmap)
-- Price vs Sales Volume Scatter Plot
-- Low Performing Products (Filtered Table)
+>  find insights(critical,warning,watch)
 
 ![Product Performance](https://github.com/aanjanakailash/First-Data-Analyst-Project-By-Kailash-J-Choudhary/blob/e937299c693d708361eb96b5b867bf62ab063ac6/Screenshots/Screenshot%202026-06-27%20112349.png))
 
@@ -145,25 +145,14 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| Python 3.x | Data cleaning and transformation |
-| Pandas | DataFrame manipulation |
-| SQL (SQLite / PostgreSQL) | Data querying and analysis |
-| Power BI Desktop | Dashboard and visualizations |
-| Jupyter Notebook | Interactive data cleaning environment |
-| Git & GitHub | Version control |
+| Tool 
+| Excel
+| Python 
+| Pandas 
+| SQL 
+| Power BI Desktop 
+| Git & GitHub 
 
----
-
-## 💡 Key Insights (from Dashboard)
-
-- 📍 **Top Revenue City:** *(add your finding here)*
-- 🛒 **Best-Selling Product:** *(add your finding here)*
-- 👥 **Most Valuable Customer Segment:** *(add your finding here)*
-- 📈 **Peak Sales Month:** *(add your finding here)*
-
----
 
 ## 🚀 How to Run This Project
 
@@ -199,9 +188,9 @@ DAX measures were created for KPIs like Total Revenue, Avg Order Value, and Grow
 
 ## 🙋 Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
+**Kailash J Choudhary**  
+📧 kailashhkumarr30@gmail.com
+🔗 [LinkedIn](linkedin.com/in/kailash-j-choudhary-b39325300) | 
 
 ---
 
